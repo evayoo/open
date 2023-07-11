@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <title>First Entry - Web Portfolio of Chaewon</title>
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav">
+                  <li><a class="nav-link active" href="/">Home</a></li>
+                  <li><a class="nav-link" href="/blog/">Blog</a></li>
+                  <li><a class="nav-link" href="/projects/">Projects</a></li>
+                  <li><a class="nav-link" href="/contact/">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="container">
+        <h1 class="title">First Entry</h1>
+        <p>July 6th, 2023</p>
+
+        <hr>
+
+        <p>This is my very first blog entry.</p>
+        
+
+        <p>Here are the things I learned today.</p> 
+            <p>First, I learned that if I press shift + tab, I can do indention to the left.</p> 
+            <p>Second, I learned how to insert pictures on the website.</p> 
+            <pre>
+              <code>
+                img src="/Chaewon.jpg" alt="picture of me" width='400px' class="center-image"
+                <img src="/Chaewon.jpg" alt="picture of me" width='400px' class="center-image">
+                <p>I wanted to source image from my blog, but it was not working.</p>
+              </code>
+            </pre>
+            <p>Third, I learned that I can host websites for free. </p>
+            using
+            <a href="https://www.netlify.com/">Netlify</a> 
+            and 
+            <a href="https://pages.github.com/">GitHub Pages</a>
+            <p>Fourth, I learned that 
+                In **CSS** it is common to define CSS rules **for the entire project**. Thus it is important that we reference the same CSS file in the blog page. We achieve this by changing the URL from `main.css` to `/main.css`. The leading `/` searches for the file in the root folder. The following shows the entire `link` element:
+              p.s. I deleted "<>" so that you can see the code. 
+              </p>
+                <pre>
+                  <code>
+        link rel="stylesheet" href="/main.css"
+                  </code>
+                </pre>
+            <p>Fifth, I learned some useful properties on CSS, such as hr that that makes line above.</p>
+            
+            <hr>
+            <ul class="highlight">
+                The problems I encountered are:
+            </ul>
+            
+            <li>
+              How do I indent my writings?
+            </li>
+            > First of all, paddings helped me to make space in a neat way. Then I searched on ChatGPT, and I learned that I need to put margins.
+            <pre>
+              <code>
+                .title {
+                  background-color: #adacfa;
+                  font-size: 65px;
+                  color: #ffffff;
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  font-style:italic;
+                  margin-top: 20px;
+              }
+              
+              body {
+                  padding: 150px; /* Adjust the value as needed */
+              }
+              </code>
+            </pre>
+            <li>
+              How do you put code box in html? 
+            </li>
+            > <pre>
+              <code>
+                // Your code goes here
+                function helloWorld() {
+                  console.log("Hello, world!");
+                }
+              </code>
+            </pre>
+            
+            <img src="/code.png" alt="screenshot of ChatGPT" width='600px' class="center-image">
+            
+            <hr>
+            <ul class="highlight">
+                What should I work on next time? 
+            </ul>
+            I want to learn how to make cool headers. p.s. How can I make my code "not work". I want to show my code, but they just run itself, so I can't show you the code.
+            > 
+            <pre>
+              <code>
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarMenu">
+                      <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="/">Home</a></li>
+                        <li><a class="nav-link" href="/blog/">Blog</a></li>
+                        <li><a class="nav-link" href="/projects/">Projects</a></li>
+                        <li><a class="nav-link" href="/contact/">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </code>
+            </pre>
+        </div>
+
+        </body>
+</html>

@@ -1,0 +1,39 @@
+.title {
+    background-color: #adacfa;
+    font-size: 65px;
+    color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style:italic;
+    margin-top: 20px;
+}
+
+body {
+    padding: 150px; /* Adjust the value as needed */
+}
+
+p {
+    color:rgb(6, 6, 55);
+    font-size: 16px;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.centered-text {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+  }
+
+.highlight {
+    color:rgb(72, 106, 175)
+}
+
+#navigation {
+    color:blanchedalmond
+}
